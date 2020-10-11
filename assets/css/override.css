@@ -76,4 +76,13 @@
     .option-button{
         margin-top: 20px !important;
     }
+    .contact-information{
+        margin-top: 30px;
+    }
+    .callback-form{
+        margin-top: 30px;
+    }
+    .single-services {
+	    margin-top: 30px;
+    }
 }
