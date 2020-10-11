@@ -11,14 +11,15 @@ jQuery( document ).ready(function( $ ) {
 
 
         // Page loading animation
-
-        $("#preloader").animate({
-            'opacity': '0'
-        }, 1500, function(){
-            setTimeout(function(){
-                $("#preloader").css("visibility", "hidden").fadeOut();
-            }, 100);
-        });
+        window.onload = function (e) {
+            $("#preloader").animate({
+                'opacity': '0'
+            }, 300, function(){
+                setTimeout(function(){
+                    $("#preloader").css("visibility", "hidden").fadeOut();
+                }, 300);
+            });
+        };
         
 
         $(window).scroll(function() {
