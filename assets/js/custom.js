@@ -12,16 +12,19 @@ jQuery( document ).ready(function( $ ) {
 
 
         // Page loading animation
-        window.onload = function (e) {
-            $("#preloader").animate({
-                'opacity': '0'
-            }, 300, function(){
-                setTimeout(function(){
-                    $("#preloader").css("visibility", "hidden").fadeOut();
-                }, 300);
-            });
-        };
-        
+        $(document).ready(function () {
+           $("#preloader").animate(
+             {
+               opacity: "0",
+             },
+             300,
+             function () {
+               setTimeout(function () {
+                 $("#preloader").css("visibility", "hidden").fadeOut();
+               }, 300);
+             }
+           );
+        });
 
         $(window).scroll(function() {
           var scroll = $(window).scrollTop();
