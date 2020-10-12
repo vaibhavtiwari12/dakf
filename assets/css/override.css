@@ -161,12 +161,11 @@
     width: 100%;
 }
 .img-centering{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+        padding-top: 30px;
+}
+.img-centering img{
+    -webkit-box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+    box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
 }
 .tabs-content ul {  
     list-style-type: circle;
@@ -207,6 +206,15 @@
         margin-top: 30px;
     }
     .single-services {
-	    margin-top: 30px;
+	    margin-top: 0px;
+    }
+    .more-info {
+        margin-top: 30px;
+    }
+    .team {
+        margin-top: 30px;
+    }
+    .single-services .col-md-4{
+        display: none!important;
     }
 }

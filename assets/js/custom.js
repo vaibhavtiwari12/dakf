@@ -97,7 +97,7 @@ jQuery( document ).ready(function( $ ) {
 
         $(".Modern-Slider").slick({
             autoplay:true,
-            autoplaySpeed:50000,
+            autoplaySpeed:5000,
             speed:600,
             slidesToShow:1,
             slidesToScroll:1,

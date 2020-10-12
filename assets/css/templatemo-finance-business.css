@@ -1311,6 +1311,7 @@ footer .contact-form button.filled-button:hover {
 	font-weight: 600;
 	color: #29B6F6;
 	font-size: 15px;
+	word-break: break-all;
 }
 
 
