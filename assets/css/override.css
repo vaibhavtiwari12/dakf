@@ -105,7 +105,7 @@
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.7);
-    height: 463px;
+    height: 100%;
     width: 100%;
 }
 .gradient-inv {
@@ -113,7 +113,7 @@
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.7);
-    height: 463px;
+    height: 100%;
     width: 100%;
 }
 .bg-advisory{
@@ -121,25 +121,28 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .bg-inv{
     background: url('../images/bg-inv.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .bg-contact{
     background: url('../images/jack-finnigan-Mxqvo8hhY1s-unsplash.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .gradient-contact {
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.8);
-    height: 463px;
+    height: 100%;
     width: 100%;
 }
 .bg-abt{
@@ -147,13 +150,14 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .gradient-abt {
     position: absolute;
     top: 0;
     left: 0;
     background: rgba(0,0,0,0.8);
-    height: 463px;
+    height: 100%;
     width: 100%;
 }
 .img-centering{
@@ -181,6 +185,13 @@
 }
 .fun-facts .right-content{
     padding: 45px 45px 45px 30px;
+}
+@media (min-width: 1200px){
+    .navbar-expand-lg .container{
+        max-width: 100%;
+        padding-left: 175px;
+        padding-right: 175px;
+    }
 }
 @media (max-width: 992px){
     .login-button{
