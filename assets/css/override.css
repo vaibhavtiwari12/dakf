@@ -214,6 +214,9 @@
     .single-services .col-md-4{
         display: none!important;
     }
+    .height-adjuster{
+        height: 610px!important;
+    }
 }
 @media (min-width: 768px) and (max-width: 992px){
     .col-md-8 {

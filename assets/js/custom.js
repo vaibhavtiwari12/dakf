@@ -24,6 +24,11 @@ jQuery( document ).ready(function( $ ) {
                }, 300);
              }
            );
+            if ($(window).height() < 610) {
+              $(".img-fill").addClass("height-adjuster");
+            } else {
+              $(".img-fill").removeClass("height-adjuster");
+            }
         });
 
         $(window).scroll(function() {
@@ -102,7 +107,7 @@ jQuery( document ).ready(function( $ ) {
         if ($(".Modern-Slider").length){
             $(".Modern-Slider").slick({
               autoplay: true,
-              autoplaySpeed: 5000,
+              autoplaySpeed: 50000,
               speed: 600,
               slidesToShow: 1,
               slidesToScroll: 1,
@@ -115,6 +120,13 @@ jQuery( document ).ready(function( $ ) {
             });
         }
 
+        $(window).resize(function () {
+          if ($(window).height() < 610) {
+            $(".img-fill").addClass("height-adjuster");
+          } else {
+            $(".img-fill").removeClass("height-adjuster");
+          }
+        });
         /* function visible(partial) {
             var $t = partial,
                 $w = jQuery(window),
