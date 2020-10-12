@@ -4,10 +4,11 @@ jQuery( document ).ready(function( $ ) {
 	"use strict";
 
 
-    
-        $(function() {
-            $( "#tabs" ).tabs();
-        });
+        if ($("#tabs").length){
+            $(function () {
+              $("#tabs").tabs();
+            });
+        }
 
 
         // Page loading animation
@@ -29,7 +30,8 @@ jQuery( document ).ready(function( $ ) {
 
           if (scroll >= box - header) {
             $("header").addClass("background-header");
-          } else {
+          } 
+          if(scroll<70){
             $("header").removeClass("background-header");
           }
         });
@@ -93,21 +95,22 @@ jQuery( document ).ready(function( $ ) {
                 }
             });
         }
-
-
-        $(".Modern-Slider").slick({
-            autoplay:true,
-            autoplaySpeed:5000,
-            speed:600,
-            slidesToShow:1,
-            slidesToScroll:1,
-            pauseOnHover:false,
-            dots:true,
-            pauseOnDotsHover:true,
-            cssEase:'linear',
-            // fade:true,
-            draggable:false
-        });
+        
+        if ($(".Modern-Slider").length){
+            $(".Modern-Slider").slick({
+              autoplay: true,
+              autoplaySpeed: 5000,
+              speed: 600,
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              pauseOnHover: false,
+              dots: true,
+              pauseOnDotsHover: true,
+              cssEase: "linear",
+              // fade:true,
+              draggable: false,
+            });
+        }
 
         /* function visible(partial) {
             var $t = partial,

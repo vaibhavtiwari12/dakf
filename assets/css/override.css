@@ -117,7 +117,7 @@
     width: 100%;
 }
 .bg-advisory{
-    background: url('../images/bg-adv.jpg');
+    background: url('../images/bg-advisory.jpg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,7 +131,7 @@
     position: relative;
 }
 .bg-contact{
-    background: url('../images/jack-finnigan-Mxqvo8hhY1s-unsplash.jpg');
+    background: url('../images/contact-title.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -146,8 +146,8 @@
     width: 100%;
 }
 .bg-abt{
-    background: url('../images/jonas-tebbe-xwlJbLvWHLo-unsplash.jpg');
-    background-position: center center;
+    background: url('../images/about-title.jpg');
+    background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
