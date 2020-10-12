@@ -415,7 +415,7 @@ header .navbar {
 .Modern-Slider .NextArrow{
   position:absolute;
   top:50%;
-  right:30px;
+  right:5px;
   border:0 none;
   background-color: transparent;
   text-align:center;
@@ -434,7 +434,7 @@ header .navbar {
 .Modern-Slider .PrevArrow {
   position:absolute;
   top:50%;
-  left:30px;
+  left:5px;
   border:0 none;
   background-color: transparent;
   text-align:center;
