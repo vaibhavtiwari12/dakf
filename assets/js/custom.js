@@ -94,6 +94,7 @@ jQuery( document ).ready(function( $ ) {
             });
         }
 
+
         $(".Modern-Slider").slick({
             autoplay:true,
             autoplaySpeed:5000,
@@ -104,10 +105,8 @@ jQuery( document ).ready(function( $ ) {
             dots:true,
             pauseOnDotsHover:true,
             cssEase:'linear',
-           // fade:true,
-            draggable:false,
-            prevArrow:'<button class="PrevArrow"></button>',
-            nextArrow:'<button class="NextArrow"></button>', 
+            // fade:true,
+            draggable:false
         });
 
         /* function visible(partial) {
