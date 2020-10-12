@@ -110,7 +110,7 @@ jQuery( document ).ready(function( $ ) {
             nextArrow:'<button class="NextArrow"></button>', 
         });
 
-        function visible(partial) {
+        /* function visible(partial) {
             var $t = partial,
                 $w = jQuery(window),
                 viewTop = $w.scrollTop(),
@@ -122,9 +122,9 @@ jQuery( document ).ready(function( $ ) {
 
             return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
 
-        }
+        } */
 
-        $(window).scroll(function(){
+        /* $(window).scroll(function(){
 
           if(visible($('.count-digit')))
             {
@@ -142,6 +142,6 @@ jQuery( document ).ready(function( $ ) {
           });
         });
         }
-    })
+    }) */
  
 });
