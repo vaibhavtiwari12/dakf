@@ -182,6 +182,9 @@
 .fun-facts .right-content{
     padding: 45px 45px 45px 30px;
 }
+.location{
+    margin-top: 30px;
+}
 @media (min-width: 1200px){
     .navbar-expand-lg .container{
         max-width: 100%;
@@ -190,6 +193,9 @@
     }
 }
 @media (max-width: 992px){
+    .location{
+        margin-top: 9px;
+    }
     .login-button{
         margin: 15px 0px !important;
     }
