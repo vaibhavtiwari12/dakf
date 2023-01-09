@@ -399,11 +399,11 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/slide_03.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide_02.jpg);
+	background-image: url(../images/slide_01.jpg);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -1367,7 +1367,7 @@ footer .contact-form button.filled-button:hover {
 		padding: 80px 0px 20px 0px;
 	}
 	footer .footer-item {
-		border-bottom: 1px solid #343434;
+		border-bottom: 1px solid #fff;
 		margin-bottom: 30px;
 		padding-bottom: 30px;
 	}
