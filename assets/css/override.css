@@ -345,6 +345,13 @@ footer ul.social-icons li a:hover {
 .may_stone:hover{
   color: #00203f;
 }
+.ul-list {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #666666;
+  line-height: 30px;
+  list-style: revert;
+}
 
 @media (min-width: 1200px) {
   .navbar-expand-lg .container {
